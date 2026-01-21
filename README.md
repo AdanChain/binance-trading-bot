@@ -1,15 +1,5 @@
 # Binance Trading Bot
 
-[![Stand With Ukraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner2-direct.svg)](https://war.ukraine.ua)
-
-
-[![GitHub version](https://img.shields.io/github/package-json/v/chrisleekr/binance-trading-bot)](https://github.com/chrisleekr/binance-trading-bot/releases)
-[![Build](https://github.com/chrisleekr/binance-trading-bot/workflows/Push/badge.svg)](https://github.com/chrisleekr/binance-trading-bot/actions?query=workflow%3APush)
-[![CodeCov](https://codecov.io/gh/chrisleekr/binance-trading-bot/branch/master/graph/badge.svg)](https://codecov.io/gh/chrisleekr/binance-trading-bot)
-[![Docker pull](https://img.shields.io/docker/pulls/chrisleekr/binance-trading-bot)](https://hub.docker.com/r/chrisleekr/binance-trading-bot)
-[![GitHub contributors](https://img.shields.io/github/contributors/chrisleekr/binance-trading-bot)](https://github.com/chrisleekr/binance-trading-bot/graphs/contributors)
-[![MIT License](https://img.shields.io/github/license/chrisleekr/binance-trading-bot)](https://github.com/chrisleekr/binance-trading-bot/blob/master/LICENSE)
-
 > Automated Binance trading bot with trailing buy/sell strategy
 
 This is a test project. I am just testing my code.
@@ -273,8 +263,7 @@ Or use the frontend to adjust configurations after launching the application.
    | BINANCE_SLACK_ENABLED          | Slack enable/disable                                                      | true                                                                                                |
    | BINANCE_SLACK_WEBHOOK_URL      | Slack webhook URL                                                         | (from [Slack](https://slack.com/intl/en-au/help/articles/115005265063-Incoming-webhooks-for-Slack)) |
    | BINANCE_SLACK_CHANNEL          | Slack channel                                                             | "#binance"                                                                                          |
-   | BINANCE_SLACK_USERNAME         | Slack username                                                            | Chris                                                                                               |
-   | BINANCE_LOCAL_TUNNEL_ENABLED   | Enable/Disable [local tunnel](https://github.com/localtunnel/localtunnel) | true                                                                                                |
+   | BINANCE_SLACK_USERNAME         | Slack username                                                            | Chris                                                                                                                                          
    | BINANCE_LOCAL_TUNNEL_SUBDOMAIN | Local tunnel public URL subdomain                                         | binance                                                                                             |
    | BINANCE_AUTHENTICATION_ENABLED | Enable/Disable frontend authentication                                    | true  |
    | BINANCE_AUTHENTICATION_PASSWORD | Frontend password                                                        | 123456 |
